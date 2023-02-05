@@ -9,7 +9,7 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0px;
+    margin: 0;
     
 }
 
@@ -75,14 +75,13 @@
 
 
 
-
 /*this adds a padding, background color, text color and display grid to the content section*/
 .content {
-    padding: 10px;
+    padding: 20px;
     background-color: var(--light);
     color: var(--dark);
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 100px 6fr;
     gap: 10px;
    
     
@@ -91,7 +90,7 @@
 /*this puts a border on the right of the left side, with padding alignment, font weight and size*/
 .left-side {
     border-right: 2px solid var(--red);
-    padding: 20px;
+    padding: 10px;
     text-align: end;
     font-weight: bold;
     font-size: 16px;
@@ -100,22 +99,20 @@
 /*this give a border around content in about to a red glow*/
 .about:hover {
     border: solid var(--red);
-    box-shadow: 0px 0px 10px 0px var(--red)
-    
+    box-shadow: 0px 0px 10px 0px var(--red);
 }
 
 /*this sets a margin and text size for the paragraph about me*/
 .about p{
     margin:10px;
     font-size: 10px;
-    width: auto;
 }
 
 /*this sets a margin and text size for the paragraph My Work*/
 .work p{
-    width:100%;
+    width:75%;
     padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
 }
 /*this removes style from list and displays links in center*/
 .contact ul {
