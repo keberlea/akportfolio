@@ -36,6 +36,18 @@
     font-size: 15px; 
 } 
 
+/**/
+.nav a {
+    color: var(--light);
+    text-decoration: none;
+}
+
+/**/
+.nav a:hover {
+
+}
+
+
 /*this adds a margin of 10px to the right of the links and removes list style*/
 .nav ul {
     list-style: none;
@@ -123,7 +135,6 @@
  }
 
 /*this sets a padding, height, background and text color and text stroke to footer*/
-/*possible change to be in the content section, like about me and my work. replace with "this website was made with <3"*/
 .footer {
     padding: 10px;
     background-color: var(--green);
