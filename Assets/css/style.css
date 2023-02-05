@@ -9,8 +9,10 @@
 * {
     box-sizing: border-box;
     padding: 0;
-    margin: 0;
+    margin: 0px;
+    
 }
+
 
 .header {
     padding: 0px;
@@ -36,33 +38,34 @@
     font-size: 15px; 
 } 
 
-/**/
+/*removes text decoration and changes font color to light*/
 .nav a {
     color: var(--light);
     text-decoration: none;
 }
 
-/**/
-.nav a:hover {
 
-}
-
-
-/*this adds a margin of 10px to the right of the links and removes list style*/
-.nav ul {
-    list-style: none;
-    margin-right: 10px;
-}
-
-/* */
+/*removes list style, creates padding, defines display */
 .nav ul li {
+    list-style: none;
     padding: 5px;
     display:inline-block;
+    text-transform: uppercase;
 }
+
+.nav ul li a{
+    margin: 0 10px;
+}
+
+.nav ul li a:hover{
+    background-color: var(--dark);
+    
+}
+
 
 /*this sets a img at the main screen*/
 .bg {
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin-bottom: 0px;
     background-image: url("../images/akhood.png");
@@ -70,23 +73,28 @@
     background-position: center;
 }
 
+
+
+
 /*this adds a padding, background color, text color and display grid to the content section*/
 .content {
-    padding: 20px;
+    padding: 10px;
     background-color: var(--light);
     color: var(--dark);
     display: grid;
-    grid-template-columns: 100px 6fr;
-    gap: 10px
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+   
+    
 }
 
 /*this puts a border on the right of the left side, with padding alignment, font weight and size*/
 .left-side {
     border-right: 2px solid var(--red);
-    padding: 10px;
+    padding: 20px;
     text-align: end;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*this give a border around content in about to a red glow*/
@@ -99,33 +107,33 @@
 /*this sets a margin and text size for the paragraph about me*/
 .about p{
     margin:10px;
-    font-size: 12px;
+    font-size: 10px;
+    width: auto;
 }
 
 /*this sets a margin and text size for the paragraph My Work*/
 .work p{
-    width: 75%;
+    width:100%;
     padding: 10px;
-    font-size: 12px;
+    font-size: 10px;
 }
-/*this removes style from list, adds a margin and displays link to the bottom right*/
+/*this removes style from list and displays links in center*/
 .contact ul {
     list-style: none;
-    margin: 10px;
     display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    justify-content:center;
  }
 
  /*this makes links dark color with no decoration*/
  .contact a{
     color:var(--dark);
     text-decoration:none;
+    font-size: 12px;
  }
 
   /**this add a padding to the individual links*/
   .contact ul li {
-    padding: 10px;
+    padding: 50px;
  }
 
  
@@ -145,6 +153,6 @@
  }
 
  
- 
+
 
 
