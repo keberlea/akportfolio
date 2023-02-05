@@ -73,24 +73,26 @@
     background-position: center;
 }
 
-
+.body {
+    max-width: 100%;
+}
 
 /*this adds a padding, background color, text color and display grid to the content section*/
 .content {
-    padding: 20px;
+    max-width: 100%;
+    padding: 10px;
     background-color: var(--light);
     color: var(--dark);
     display: grid;
-    grid-template-columns: 100px 6fr;
+    grid-template-columns: 100px 1fr;
     gap: 10px;
-   
     
 }
 
 /*this puts a border on the right of the left side, with padding alignment, font weight and size*/
 .left-side {
     border-right: 2px solid var(--red);
-    padding: 10px;
+    padding: 5px;
     text-align: end;
     font-weight: bold;
     font-size: 16px;
@@ -130,7 +132,7 @@
 
   /**this add a padding to the individual links*/
   .contact ul li {
-    padding: 50px;
+    padding: 20px;
  }
 
  
