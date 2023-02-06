@@ -98,12 +98,6 @@
     font-size: 16px;
 }
 
-/*this give a border around content in about to a red glow*/
-.about:hover {
-    border: solid var(--red);
-    box-shadow: 0px 0px 10px 0px var(--red);
-}
-
 /*this sets a margin and text size for the paragraph about me*/
 .about p{
     margin:10px;
@@ -111,21 +105,29 @@
 }
 
 .portfolio {
-    width:100%
-
+    width:100%;
 }
 
-.current {
-    height: auto;
+.current{
+    height:auto;
     display:flex;
+    flex-direction: column;
     padding-left: 50px;
+    padding-right: 50px;
 }
 
-
-#current img{
-    width: 75%;
+.current img{
+    width:75%;
     object-fit:scale-down;
 }
+
+/*this give a border around content in about to a red glow*/
+.current img:hover {
+    border: solid var(--red);
+    box-shadow: 0px 0px 10px 0px var(--red);
+    
+}
+
 /*this sets a margin and text size for the paragraph My Work*/
 .work p{
     width:75%;
