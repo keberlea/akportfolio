@@ -110,6 +110,22 @@
     font-size: 10px;
 }
 
+.portfolio {
+    width:100%
+
+}
+
+.current {
+    height: auto;
+    display:flex;
+    padding-left: 50px;
+}
+
+
+#current img{
+    width: 75%;
+    object-fit:scale-down;
+}
 /*this sets a margin and text size for the paragraph My Work*/
 .work p{
     width:75%;
