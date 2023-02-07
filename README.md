@@ -7,9 +7,9 @@ This repository was made with a goal to create myself a professional portfolio t
 
 ## Usage
 
-![screenshot]()
-    
+![screenshot](Assets/images/currentproject.PNG)
 
+https://keberlea.github.io/akportfolio/
 
 ## Credits
 
