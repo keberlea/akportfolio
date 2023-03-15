@@ -11,6 +11,10 @@ This repository was made with a goal to create myself a professional portfolio t
 
 https://keberlea.github.io/akportfolio/
 
+
+Links to projects found on portfolio page:
+Fetch Your Furry Friends: https://2code4wsp.github.io/Adopt-and-dine/
+
 ## Credits
 
 University of Oregon- EDex bootcamp
